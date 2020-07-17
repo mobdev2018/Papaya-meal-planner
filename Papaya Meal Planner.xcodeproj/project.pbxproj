@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1F0CF01E33031E003C5A7F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F0CEF1E33031E003C5A7F /* HomeVC.swift */; };
+		3A1F0CF21E3342CB003C5A7F /* NutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F0CF11E3342CB003C5A7F /* NutritionCell.swift */; };
+		3A1F0CF41E33561F003C5A7F /* BlogPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F0CF31E33561F003C5A7F /* BlogPostCell.swift */; };
+		3A1F0CF61E33CAC9003C5A7F /* RecipiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F0CF51E33CAC9003C5A7F /* RecipiesCell.swift */; };
+		5C154F182FB96E9BACB17EF1 /* Pods_Papaya_Meal_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F70D5073594E02C5B22EFB6 /* Pods_Papaya_Meal_Planner.framework */; };
+		8A7A24E61E093705003AB477 /* IngredientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A24E51E093705003AB477 /* IngredientsTableViewCell.swift */; };
+		8A7A24E81E095AA7003AB477 /* NutritionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A24E71E095AA7003AB477 /* NutritionTableViewCell.swift */; };
+		8A7A24EA1E095DE2003AB477 /* InstructionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A24E91E095DE2003AB477 /* InstructionsTableViewCell.swift */; };
+		CE0BB01D1E1A99900004C218 /* TargetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BB01C1E1A99900004C218 /* TargetsTableViewController.swift */; };
+		CE0BB01F1E1AB7F60004C218 /* UserInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BB01E1E1AB7F60004C218 /* UserInformationTableViewController.swift */; };
+		CE0CED401E05285A00FE73AB /* MealPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CED3F1E05285A00FE73AB /* MealPlan.swift */; };
+		CE0CED421E05294E00FE73AB /* Nutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CED411E05294E00FE73AB /* Nutrient.swift */; };
+		CE14C6181E41C49400EA264D /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14C6171E41C49400EA264D /* Requests.swift */; };
+		CE22CD921E1B8DAE00CE904D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE22CD911E1B8DAE00CE904D /* UserInfo.swift */; };
+		CE2AFEAE1E3DBC77007A3319 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AFEAD1E3DBC76007A3319 /* WebViewController.swift */; };
+		CE39FC111E2E81DD00B3F5EF /* MacrosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39FC101E2E81DD00B3F5EF /* MacrosTableViewCell.swift */; };
+		CE3CA19F1E0878890004D3C0 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA19E1E0878890004D3C0 /* GroceryItem.swift */; };
+		CE3CA1A11E087E7E0004D3C0 /* GroceryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA1A01E087E7E0004D3C0 /* GroceryItemTableViewCell.swift */; };
+		CE41DCE11E3E81340079266F /* UserActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41DCE01E3E81340079266F /* UserActions.swift */; };
+		CE43CF3D1E0667C000D43743 /* NutritionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43CF3C1E0667C000D43743 /* NutritionLabel.swift */; };
+		CE5860231E0889CC009190B2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5860221E0889CC009190B2 /* FavoritesViewController.swift */; };
+		CE5860251E088BF5009190B2 /* favoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5860241E088BF5009190B2 /* favoritesTableViewCell.swift */; };
+		CE5941261E223FBC00709ACA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5941251E223FBC00709ACA /* Config.swift */; };
+		CE60CEBA1E4512D5008A94BB /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60CEB91E4512D5008A94BB /* ProfileTableViewController.swift */; };
+		CE713D281E457B2300E83C71 /* profile_body_composition.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D1E1E457B2300E83C71 /* profile_body_composition.png */; };
+		CE713D291E457B2300E83C71 /* profile_challenges.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D1F1E457B2300E83C71 /* profile_challenges.png */; };
+		CE713D2A1E457B2300E83C71 /* profile_community.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D201E457B2300E83C71 /* profile_community.png */; };
+		CE713D2B1E457B2300E83C71 /* profile_courses.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D211E457B2300E83C71 /* profile_courses.png */; };
+		CE713D2C1E457B2300E83C71 /* profile_favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D221E457B2300E83C71 /* profile_favorites.png */; };
+		CE713D2D1E457B2300E83C71 /* profile_friends.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D231E457B2300E83C71 /* profile_friends.png */; };
+		CE713D2E1E457B2300E83C71 /* profile_goles.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D241E457B2300E83C71 /* profile_goles.png */; };
+		CE713D2F1E457B2300E83C71 /* profile_invite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D251E457B2300E83C71 /* profile_invite.png */; };
+		CE713D301E457B2300E83C71 /* profile_nutrition_target.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D261E457B2300E83C71 /* profile_nutrition_target.png */; };
+		CE713D311E457B2300E83C71 /* profile_preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D271E457B2300E83C71 /* profile_preferences.png */; };
+		CE713D351E45B9B100E83C71 /* profile_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE713D341E45B9B100E83C71 /* profile_settings.png */; };
+		CE8217F41E47AC96009F4A09 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8217F31E47AC96009F4A09 /* logo.jpg */; };
+		CEA403E41DFFE99D00337270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403E31DFFE99D00337270 /* AppDelegate.swift */; };
+		CEA403E91DFFE99D00337270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA403E71DFFE99D00337270 /* Main.storyboard */; };
+		CEA403EB1DFFE99D00337270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA403EA1DFFE99D00337270 /* Assets.xcassets */; };
+		CEA403EE1DFFE99D00337270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA403EC1DFFE99D00337270 /* LaunchScreen.storyboard */; };
+		CEA403F61DFFEA1400337270 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403F51DFFEA1400337270 /* LoginViewController.swift */; };
+		CEA404161DFFEA3500337270 /* AvenirLTStd-Light_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEA403F71DFFEA3500337270 /* AvenirLTStd-Light_0.otf */; };
+		CEA404171DFFEA3500337270 /* AvenirLTStd-Medium_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEA403F81DFFEA3500337270 /* AvenirLTStd-Medium_0.otf */; };
+		CEA404181DFFEA3500337270 /* CaloriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403F91DFFEA3500337270 /* CaloriesTableViewCell.swift */; };
+		CEA4041A1DFFEA3500337270 /* Grocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403FB1DFFEA3500337270 /* Grocery.swift */; };
+		CEA4041B1DFFEA3500337270 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403FC1DFFEA3500337270 /* GroceryViewController.swift */; };
+		CEA4041C1DFFEA3500337270 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403FD1DFFEA3500337270 /* HomeViewController.swift */; };
+		CEA4041D1DFFEA3500337270 /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403FE1DFFEA3500337270 /* IngredientsTableViewController.swift */; };
+		CEA4041E1DFFEA3500337270 /* InstructionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA403FF1DFFEA3500337270 /* InstructionsTableViewController.swift */; };
+		CEA4041F1DFFEA3500337270 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404001DFFEA3500337270 /* Login.swift */; };
+		CEA404211DFFEA3500337270 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404021DFFEA3500337270 /* Meal.swift */; };
+		CEA404221DFFEA3500337270 /* mealPlanRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404031DFFEA3500337270 /* mealPlanRequests.swift */; };
+		CEA404231DFFEA3500337270 /* MealPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404041DFFEA3500337270 /* MealPlanViewController.swift */; };
+		CEA404241DFFEA3500337270 /* mealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404051DFFEA3500337270 /* mealTableViewCell.swift */; };
+		CEA404251DFFEA3500337270 /* MealTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404061DFFEA3500337270 /* MealTableViewHeaderCell.swift */; };
+		CEA404261DFFEA3500337270 /* NutritionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404071DFFEA3500337270 /* NutritionTableViewController.swift */; };
+		CEA404271DFFEA3500337270 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4040A1DFFEA3500337270 /* Recipe.swift */; };
+		CEA404281DFFEA3500337270 /* recipeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4040B1DFFEA3500337270 /* recipeRequests.swift */; };
+		CEA404291DFFEA3500337270 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4040C1DFFEA3500337270 /* RecipeViewController.swift */; };
+		CEA4042A1DFFEA3500337270 /* Signup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4040D1DFFEA3500337270 /* Signup1ViewController.swift */; };
+		CEA4042B1DFFEA3500337270 /* Signup2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4040E1DFFEA3500337270 /* Signup2ViewController.swift */; };
+		CEA4042C1DFFEA3500337270 /* Signup3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4040F1DFFEA3500337270 /* Signup3ViewController.swift */; };
+		CEA4042D1DFFEA3500337270 /* Signup4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404101DFFEA3500337270 /* Signup4ViewController.swift */; };
+		CEA4042E1DFFEA3500337270 /* Signup5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404111DFFEA3500337270 /* Signup5ViewController.swift */; };
+		CEA4042F1DFFEA3500337270 /* Signup6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404121DFFEA3500337270 /* Signup6ViewController.swift */; };
+		CEA404301DFFEA3500337270 /* Signup7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404131DFFEA3500337270 /* Signup7ViewController.swift */; };
+		CEA404311DFFEA3500337270 /* SignupHoldingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404141DFFEA3500337270 /* SignupHoldingViewController.swift */; };
+		CEA404321DFFEA3500337270 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA404151DFFEA3500337270 /* WalkthroughContentViewController.swift */; };
+		CEAD54891E2AF60D007D4684 /* MealPlanNutritionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD54881E2AF60D007D4684 /* MealPlanNutritionTableViewController.swift */; };
+		CEC79B421E163B4100BF05B3 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC79B411E163B4100BF05B3 /* SettingsTableViewController.swift */; };
+		CEC81EF61E0AC79500E3D72D /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC81EF51E0AC79500E3D72D /* Signup.swift */; };
+		CEC81EF81E0AC7BA00E3D72D /* SignupEmalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC81EF71E0AC7BA00E3D72D /* SignupEmalViewController.swift */; };
+		CED10DD71E2FF36F0097951A /* MealNutritionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED10DD61E2FF36F0097951A /* MealNutritionHeaderTableViewCell.swift */; };
+		CED160491E05EFC600B7FF9D /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED160481E05EFC600B7FF9D /* Instruction.swift */; };
+		CED1604B1E05F02600B7FF9D /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1604A1E05F02600B7FF9D /* Tag.swift */; };
+		CED5E6221E1A27E60087B662 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5E6211E1A27E60087B662 /* Settings.swift */; };
+		CEF547FC1E3D8F0D00761CEB /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF547FB1E3D8F0D00761CEB /* VideoViewController.swift */; };
+		CEF88EDC1E088FC700FC9ACD /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF88EDB1E088FC700FC9ACD /* Favorites.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F70D5073594E02C5B22EFB6 /* Pods_Papaya_Meal_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Papaya_Meal_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB81A0E421834053395B2C /* Pods-Papaya Meal Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papaya Meal Planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner.release.xcconfig"; sourceTree = "<group>"; };
+		2F3CFE0DEA6A9F2A38A6AB2A /* Pods-Papaya Meal Planner.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papaya Meal Planner.staging.xcconfig"; path = "Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner.staging.xcconfig"; sourceTree = "<group>"; };
+		3A1F0CEF1E33031E003C5A7F /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3A1F0CF11E3342CB003C5A7F /* NutritionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionCell.swift; sourceTree = "<group>"; };
+		3A1F0CF31E33561F003C5A7F /* BlogPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPostCell.swift; sourceTree = "<group>"; };
+		3A1F0CF51E33CAC9003C5A7F /* RecipiesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipiesCell.swift; sourceTree = "<group>"; };
+		4B6317A883772003A8959C55 /* Pods-Papaya Meal Planner.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papaya Meal Planner.production.xcconfig"; path = "Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner.production.xcconfig"; sourceTree = "<group>"; };
+		4C26463CC89A060A9C4F1475 /* Pods-Papaya Meal Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papaya Meal Planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		54C6F685CD03A2C00124C5A2 /* Pods-Papaya Meal Planner.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papaya Meal Planner.dev.xcconfig"; path = "Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner.dev.xcconfig"; sourceTree = "<group>"; };
+		8A7A24E51E093705003AB477 /* IngredientsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewCell.swift; sourceTree = "<group>"; };
+		8A7A24E71E095AA7003AB477 /* NutritionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionTableViewCell.swift; sourceTree = "<group>"; };
+		8A7A24E91E095DE2003AB477 /* InstructionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsTableViewCell.swift; sourceTree = "<group>"; };
+		CE0BB01C1E1A99900004C218 /* TargetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetsTableViewController.swift; sourceTree = "<group>"; };
+		CE0BB01E1E1AB7F60004C218 /* UserInformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInformationTableViewController.swift; sourceTree = "<group>"; };
+		CE0CED3E1E05257100FE73AB /* Papaya Meal Planner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Papaya Meal Planner.entitlements"; sourceTree = "<group>"; };
+		CE0CED3F1E05285A00FE73AB /* MealPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlan.swift; sourceTree = "<group>"; };
+		CE0CED411E05294E00FE73AB /* Nutrient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nutrient.swift; sourceTree = "<group>"; };
+		CE14C6171E41C49400EA264D /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		CE22CD911E1B8DAE00CE904D /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		CE2AFEAD1E3DBC76007A3319 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CE39FC101E2E81DD00B3F5EF /* MacrosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacrosTableViewCell.swift; sourceTree = "<group>"; };
+		CE3CA19E1E0878890004D3C0 /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		CE3CA1A01E087E7E0004D3C0 /* GroceryItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewCell.swift; sourceTree = "<group>"; };
+		CE41DCE01E3E81340079266F /* UserActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActions.swift; sourceTree = "<group>"; };
+		CE43CF3C1E0667C000D43743 /* NutritionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionLabel.swift; sourceTree = "<group>"; };
+		CE5860221E0889CC009190B2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		CE5860241E088BF5009190B2 /* favoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesTableViewCell.swift; sourceTree = "<group>"; };
+		CE5941251E223FBC00709ACA /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CE60CEB91E4512D5008A94BB /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		CE713D1E1E457B2300E83C71 /* profile_body_composition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_body_composition.png; path = images/profile_body_composition.png; sourceTree = "<group>"; };
+		CE713D1F1E457B2300E83C71 /* profile_challenges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_challenges.png; path = images/profile_challenges.png; sourceTree = "<group>"; };
+		CE713D201E457B2300E83C71 /* profile_community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_community.png; path = images/profile_community.png; sourceTree = "<group>"; };
+		CE713D211E457B2300E83C71 /* profile_courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_courses.png; path = images/profile_courses.png; sourceTree = "<group>"; };
+		CE713D221E457B2300E83C71 /* profile_favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_favorites.png; path = images/profile_favorites.png; sourceTree = "<group>"; };
+		CE713D231E457B2300E83C71 /* profile_friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_friends.png; path = images/profile_friends.png; sourceTree = "<group>"; };
+		CE713D241E457B2300E83C71 /* profile_goles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_goles.png; path = images/profile_goles.png; sourceTree = "<group>"; };
+		CE713D251E457B2300E83C71 /* profile_invite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_invite.png; path = images/profile_invite.png; sourceTree = "<group>"; };
+		CE713D261E457B2300E83C71 /* profile_nutrition_target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_nutrition_target.png; path = images/profile_nutrition_target.png; sourceTree = "<group>"; };
+		CE713D271E457B2300E83C71 /* profile_preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_preferences.png; path = images/profile_preferences.png; sourceTree = "<group>"; };
+		CE713D341E45B9B100E83C71 /* profile_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_settings.png; path = images/profile_settings.png; sourceTree = "<group>"; };
+		CE8217F31E47AC96009F4A09 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = images/logo.jpg; sourceTree = "<group>"; };
+		CEA403E01DFFE99D00337270 /* Papaya Meal Planner Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Papaya Meal Planner Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA403E31DFFE99D00337270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA403E81DFFE99D00337270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA403EA1DFFE99D00337270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA403ED1DFFE99D00337270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA403EF1DFFE99D00337270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA403F51DFFEA1400337270 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEA403F71DFFEA3500337270 /* AvenirLTStd-Light_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Light_0.otf"; sourceTree = "<group>"; };
+		CEA403F81DFFEA3500337270 /* AvenirLTStd-Medium_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Medium_0.otf"; sourceTree = "<group>"; };
+		CEA403F91DFFEA3500337270 /* CaloriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaloriesTableViewCell.swift; sourceTree = "<group>"; };
+		CEA403FB1DFFEA3500337270 /* Grocery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grocery.swift; sourceTree = "<group>"; };
+		CEA403FC1DFFEA3500337270 /* GroceryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
+		CEA403FD1DFFEA3500337270 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEA403FE1DFFEA3500337270 /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		CEA403FF1DFFEA3500337270 /* InstructionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsTableViewController.swift; sourceTree = "<group>"; };
+		CEA404001DFFEA3500337270 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CEA404021DFFEA3500337270 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		CEA404031DFFEA3500337270 /* mealPlanRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mealPlanRequests.swift; sourceTree = "<group>"; };
+		CEA404041DFFEA3500337270 /* MealPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanViewController.swift; sourceTree = "<group>"; };
+		CEA404051DFFEA3500337270 /* mealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mealTableViewCell.swift; sourceTree = "<group>"; };
+		CEA404061DFFEA3500337270 /* MealTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		CEA404071DFFEA3500337270 /* NutritionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionTableViewController.swift; sourceTree = "<group>"; };
+		CEA4040A1DFFEA3500337270 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CEA4040B1DFFEA3500337270 /* recipeRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeRequests.swift; sourceTree = "<group>"; };
+		CEA4040C1DFFEA3500337270 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		CEA4040D1DFFEA3500337270 /* Signup1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup1ViewController.swift; sourceTree = "<group>"; };
+		CEA4040E1DFFEA3500337270 /* Signup2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup2ViewController.swift; sourceTree = "<group>"; };
+		CEA4040F1DFFEA3500337270 /* Signup3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup3ViewController.swift; sourceTree = "<group>"; };
+		CEA404101DFFEA3500337270 /* Signup4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup4ViewController.swift; sourceTree = "<group>"; };
+		CEA404111DFFEA3500337270 /* Signup5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup5ViewController.swift; sourceTree = "<group>"; };
+		CEA404121DFFEA3500337270 /* Signup6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup6ViewController.swift; sourceTree = "<group>"; };
+		CEA404131DFFEA3500337270 /* Signup7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup7ViewController.swift; sourceTree = "<group>"; };
+		CEA404141DFFEA3500337270 /* SignupHoldingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupHoldingViewController.swift; sourceTree = "<group>"; };
+		CEA404151DFFEA3500337270 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		CEA404331DFFEA4D00337270 /* AvenirLTStd-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.ttf"; sourceTree = "<group>"; };
+		CEA404341DFFEA4D00337270 /* AvenirLTStd-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Heavy.otf"; sourceTree = "<group>"; };
+		CEAD54881E2AF60D007D4684 /* MealPlanNutritionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanNutritionTableViewController.swift; sourceTree = "<group>"; };
+		CEC79B411E163B4100BF05B3 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		CEC81EF51E0AC79500E3D72D /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		CEC81EF71E0AC7BA00E3D72D /* SignupEmalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupEmalViewController.swift; sourceTree = "<group>"; };
+		CED10DD61E2FF36F0097951A /* MealNutritionHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealNutritionHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		CED160481E05EFC600B7FF9D /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		CED1604A1E05F02600B7FF9D /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		CED5E6211E1A27E60087B662 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CEF547FB1E3D8F0D00761CEB /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		CEF88EDB1E088FC700FC9ACD /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA403DD1DFFE99D00337270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C154F182FB96E9BACB17EF1 /* Pods_Papaya_Meal_Planner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1F0CEE1E3302FE003C5A7F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3A1F0CEF1E33031E003C5A7F /* HomeVC.swift */,
+				3A1F0CF11E3342CB003C5A7F /* NutritionCell.swift */,
+				3A1F0CF31E33561F003C5A7F /* BlogPostCell.swift */,
+				3A1F0CF51E33CAC9003C5A7F /* RecipiesCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		739AE3D84596FF5470EFEB68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C26463CC89A060A9C4F1475 /* Pods-Papaya Meal Planner.debug.xcconfig */,
+				2CCB81A0E421834053395B2C /* Pods-Papaya Meal Planner.release.xcconfig */,
+				54C6F685CD03A2C00124C5A2 /* Pods-Papaya Meal Planner.dev.xcconfig */,
+				2F3CFE0DEA6A9F2A38A6AB2A /* Pods-Papaya Meal Planner.staging.xcconfig */,
+				4B6317A883772003A8959C55 /* Pods-Papaya Meal Planner.production.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE0AFF151DFFEC8B008D27F2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403F81DFFEA3500337270 /* AvenirLTStd-Medium_0.otf */,
+				CEA403F71DFFEA3500337270 /* AvenirLTStd-Light_0.otf */,
+				CEA404341DFFEA4D00337270 /* AvenirLTStd-Heavy.otf */,
+				CEA404331DFFEA4D00337270 /* AvenirLTStd-Black.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CE0AFF161DFFECE2008D27F2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403EA1DFFE99D00337270 /* Assets.xcassets */,
+				CE0AFF151DFFEC8B008D27F2 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		CE0AFF171DFFED1A008D27F2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403FD1DFFEA3500337270 /* HomeViewController.swift */,
+				CEA404151DFFEA3500337270 /* WalkthroughContentViewController.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		CE0AFF181DFFED58008D27F2 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4040C1DFFEA3500337270 /* RecipeViewController.swift */,
+				CEA403FE1DFFEA3500337270 /* IngredientsTableViewController.swift */,
+				CEA403FF1DFFEA3500337270 /* InstructionsTableViewController.swift */,
+				CEA404071DFFEA3500337270 /* NutritionTableViewController.swift */,
+				8A7A24E51E093705003AB477 /* IngredientsTableViewCell.swift */,
+				8A7A24E71E095AA7003AB477 /* NutritionTableViewCell.swift */,
+				8A7A24E91E095DE2003AB477 /* InstructionsTableViewCell.swift */,
+				CEA4040B1DFFEA3500337270 /* recipeRequests.swift */,
+			);
+			name = Recipe;
+			sourceTree = "<group>";
+		};
+		CE0AFF191DFFEDB0008D27F2 /* MealPlan */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD54871E2AF5D9007D4684 /* DetailedNutrition */,
+				CEA404041DFFEA3500337270 /* MealPlanViewController.swift */,
+				CEA404031DFFEA3500337270 /* mealPlanRequests.swift */,
+				CEA404051DFFEA3500337270 /* mealTableViewCell.swift */,
+				CEA404061DFFEA3500337270 /* MealTableViewHeaderCell.swift */,
+				CEA403F91DFFEA3500337270 /* CaloriesTableViewCell.swift */,
+			);
+			name = MealPlan;
+			sourceTree = "<group>";
+		};
+		CE0AFF1A1DFFEDF1008D27F2 /* Grocery */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403FB1DFFEA3500337270 /* Grocery.swift */,
+				CEA403FC1DFFEA3500337270 /* GroceryViewController.swift */,
+				CE3CA1A01E087E7E0004D3C0 /* GroceryItemTableViewCell.swift */,
+			);
+			name = Grocery;
+			sourceTree = "<group>";
+		};
+		CE0AFF1B1DFFEE1E008D27F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403F51DFFEA1400337270 /* LoginViewController.swift */,
+				CEA404001DFFEA3500337270 /* Login.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CE0AFF1C1DFFEE45008D27F2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4040D1DFFEA3500337270 /* Signup1ViewController.swift */,
+				CEA4040E1DFFEA3500337270 /* Signup2ViewController.swift */,
+				CEA4040F1DFFEA3500337270 /* Signup3ViewController.swift */,
+				CEA404101DFFEA3500337270 /* Signup4ViewController.swift */,
+				CEA404111DFFEA3500337270 /* Signup5ViewController.swift */,
+				CEA404121DFFEA3500337270 /* Signup6ViewController.swift */,
+				CEA404131DFFEA3500337270 /* Signup7ViewController.swift */,
+				CEA404141DFFEA3500337270 /* SignupHoldingViewController.swift */,
+				CEC81EF71E0AC7BA00E3D72D /* SignupEmalViewController.swift */,
+				CEC81EF51E0AC79500E3D72D /* Signup.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		CE0AFF1D1DFFEE91008D27F2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CE0CED3E1E05257100FE73AB /* Papaya Meal Planner.entitlements */,
+				CEA403EF1DFFE99D00337270 /* Info.plist */,
+				CE5941251E223FBC00709ACA /* Config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CE0AFF1E1DFFEF21008D27F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403E71DFFE99D00337270 /* Main.storyboard */,
+				CEA403E31DFFE99D00337270 /* AppDelegate.swift */,
+				CEA403EC1DFFE99D00337270 /* LaunchScreen.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CE0AFF1F1DFFEF47008D27F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEA404021DFFEA3500337270 /* Meal.swift */,
+				CEA4040A1DFFEA3500337270 /* Recipe.swift */,
+				CE0CED3F1E05285A00FE73AB /* MealPlan.swift */,
+				CE0CED411E05294E00FE73AB /* Nutrient.swift */,
+				CED160481E05EFC600B7FF9D /* Instruction.swift */,
+				CED1604A1E05F02600B7FF9D /* Tag.swift */,
+				CE43CF3C1E0667C000D43743 /* NutritionLabel.swift */,
+				CE3CA19E1E0878890004D3C0 /* GroceryItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE22CD901E1B8D9400CE904D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE22CD911E1B8DAE00CE904D /* UserInfo.swift */,
+				CEF547FB1E3D8F0D00761CEB /* VideoViewController.swift */,
+				CE2AFEAD1E3DBC76007A3319 /* WebViewController.swift */,
+				CE41DCE01E3E81340079266F /* UserActions.swift */,
+				CE14C6171E41C49400EA264D /* Requests.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		CE5860211E088924009190B2 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				CE5860221E0889CC009190B2 /* FavoritesViewController.swift */,
+				CE5860241E088BF5009190B2 /* favoritesTableViewCell.swift */,
+				CEF88EDB1E088FC700FC9ACD /* Favorites.swift */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		CE60CEB81E4512AE008A94BB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE60CEB91E4512D5008A94BB /* ProfileTableViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		CE713D191E452B9500E83C71 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE8217F31E47AC96009F4A09 /* logo.jpg */,
+				CE713D341E45B9B100E83C71 /* profile_settings.png */,
+				CE713D1E1E457B2300E83C71 /* profile_body_composition.png */,
+				CE713D1F1E457B2300E83C71 /* profile_challenges.png */,
+				CE713D201E457B2300E83C71 /* profile_community.png */,
+				CE713D211E457B2300E83C71 /* profile_courses.png */,
+				CE713D221E457B2300E83C71 /* profile_favorites.png */,
+				CE713D231E457B2300E83C71 /* profile_friends.png */,
+				CE713D241E457B2300E83C71 /* profile_goles.png */,
+				CE713D251E457B2300E83C71 /* profile_invite.png */,
+				CE713D261E457B2300E83C71 /* profile_nutrition_target.png */,
+				CE713D271E457B2300E83C71 /* profile_preferences.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CEA403D71DFFE99D00337270 = {
+			isa = PBXGroup;
+			children = (
+				CEA403E21DFFE99D00337270 /* Papaya Meal Planner */,
+				CEA403E11DFFE99D00337270 /* Products */,
+				739AE3D84596FF5470EFEB68 /* Pods */,
+				F655910DBAE1B98A62A90BBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA403E11DFFE99D00337270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA403E01DFFE99D00337270 /* Papaya Meal Planner Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA403E21DFFE99D00337270 /* Papaya Meal Planner */ = {
+			isa = PBXGroup;
+			children = (
+				CE713D191E452B9500E83C71 /* images */,
+				CE60CEB81E4512AE008A94BB /* Profile */,
+				3A1F0CEE1E3302FE003C5A7F /* Home */,
+				CE22CD901E1B8D9400CE904D /* Common */,
+				CE0AFF161DFFECE2008D27F2 /* Assets */,
+				CE0AFF1D1DFFEE91008D27F2 /* Config */,
+				CE5860211E088924009190B2 /* Favorites */,
+				CE0AFF1A1DFFEDF1008D27F2 /* Grocery */,
+				CE0AFF1B1DFFEE1E008D27F2 /* Login */,
+				CE0AFF1E1DFFEF21008D27F2 /* Main */,
+				CE0AFF191DFFEDB0008D27F2 /* MealPlan */,
+				CE0AFF1F1DFFEF47008D27F2 /* Models */,
+				CE0AFF171DFFED1A008D27F2 /* Onboarding */,
+				CE0AFF181DFFED58008D27F2 /* Recipe */,
+				CE0AFF1C1DFFEE45008D27F2 /* SignUp */,
+				CEC79B401E163AF700BF05B3 /* Settings */,
+			);
+			path = "Papaya Meal Planner";
+			sourceTree = "<group>";
+		};
+		CEAD54871E2AF5D9007D4684 /* DetailedNutrition */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD54881E2AF60D007D4684 /* MealPlanNutritionTableViewController.swift */,
+				CE39FC101E2E81DD00B3F5EF /* MacrosTableViewCell.swift */,
+				CED10DD61E2FF36F0097951A /* MealNutritionHeaderTableViewCell.swift */,
+			);
+			name = DetailedNutrition;
+			sourceTree = "<group>";
+		};
+		CEC79B401E163AF700BF05B3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CEC79B411E163B4100BF05B3 /* SettingsTableViewController.swift */,
+				CED5E6211E1A27E60087B662 /* Settings.swift */,
+				CE0BB01C1E1A99900004C218 /* TargetsTableViewController.swift */,
+				CE0BB01E1E1AB7F60004C218 /* UserInformationTableViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		F655910DBAE1B98A62A90BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F70D5073594E02C5B22EFB6 /* Pods_Papaya_Meal_Planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA403DF1DFFE99D00337270 /* Papaya Meal Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA403F21DFFE99D00337270 /* Build configuration list for PBXNativeTarget "Papaya Meal Planner" */;
+			buildPhases = (
+				082CCC5FB3D8763CB8598134 /* [CP] Check Pods Manifest.lock */,
+				CEA403DC1DFFE99D00337270 /* Sources */,
+				CEA403DD1DFFE99D00337270 /* Frameworks */,
+				CEA403DE1DFFE99D00337270 /* Resources */,
+				5F0F554BA3D95915744B7336 /* [CP] Embed Pods Frameworks */,
+				7A3417EF7A7922882F6C3AD7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Papaya Meal Planner";
+			productName = "Papaya Meal Planner";
+			productReference = CEA403E01DFFE99D00337270 /* Papaya Meal Planner Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA403D81DFFE99D00337270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Papaya LC";
+				TargetAttributes = {
+					CEA403DF1DFFE99D00337270 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DBV8JD4R69;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CEA403DB1DFFE99D00337270 /* Build configuration list for PBXProject "Papaya Meal Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA403D71DFFE99D00337270;
+			productRefGroup = CEA403E11DFFE99D00337270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA403DF1DFFE99D00337270 /* Papaya Meal Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA403DE1DFFE99D00337270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE713D301E457B2300E83C71 /* profile_nutrition_target.png in Resources */,
+				CE713D2B1E457B2300E83C71 /* profile_courses.png in Resources */,
+				CE713D2D1E457B2300E83C71 /* profile_friends.png in Resources */,
+				CE713D2F1E457B2300E83C71 /* profile_invite.png in Resources */,
+				CE8217F41E47AC96009F4A09 /* logo.jpg in Resources */,
+				CE713D2E1E457B2300E83C71 /* profile_goles.png in Resources */,
+				CE713D2C1E457B2300E83C71 /* profile_favorites.png in Resources */,
+				CEA403EE1DFFE99D00337270 /* LaunchScreen.storyboard in Resources */,
+				CEA403EB1DFFE99D00337270 /* Assets.xcassets in Resources */,
+				CEA404161DFFEA3500337270 /* AvenirLTStd-Light_0.otf in Resources */,
+				CE713D2A1E457B2300E83C71 /* profile_community.png in Resources */,
+				CEA403E91DFFE99D00337270 /* Main.storyboard in Resources */,
+				CE713D311E457B2300E83C71 /* profile_preferences.png in Resources */,
+				CE713D351E45B9B100E83C71 /* profile_settings.png in Resources */,
+				CEA404171DFFEA3500337270 /* AvenirLTStd-Medium_0.otf in Resources */,
+				CE713D281E457B2300E83C71 /* profile_body_composition.png in Resources */,
+				CE713D291E457B2300E83C71 /* profile_challenges.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082CCC5FB3D8763CB8598134 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0F554BA3D95915744B7336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3417EF7A7922882F6C3AD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Papaya Meal Planner/Pods-Papaya Meal Planner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA403DC1DFFE99D00337270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0CED421E05294E00FE73AB /* Nutrient.swift in Sources */,
+				3A1F0CF21E3342CB003C5A7F /* NutritionCell.swift in Sources */,
+				CEC81EF81E0AC7BA00E3D72D /* SignupEmalViewController.swift in Sources */,
+				3A1F0CF41E33561F003C5A7F /* BlogPostCell.swift in Sources */,
+				CEA403F61DFFEA1400337270 /* LoginViewController.swift in Sources */,
+				CEA404291DFFEA3500337270 /* RecipeViewController.swift in Sources */,
+				CE60CEBA1E4512D5008A94BB /* ProfileTableViewController.swift in Sources */,
+				CEA404321DFFEA3500337270 /* WalkthroughContentViewController.swift in Sources */,
+				CEA404211DFFEA3500337270 /* Meal.swift in Sources */,
+				CE39FC111E2E81DD00B3F5EF /* MacrosTableViewCell.swift in Sources */,
+				CEA404221DFFEA3500337270 /* mealPlanRequests.swift in Sources */,
+				CEA404241DFFEA3500337270 /* mealTableViewCell.swift in Sources */,
+				CEA4041D1DFFEA3500337270 /* IngredientsTableViewController.swift in Sources */,
+				CEA404311DFFEA3500337270 /* SignupHoldingViewController.swift in Sources */,
+				CEC81EF61E0AC79500E3D72D /* Signup.swift in Sources */,
+				CEA4042D1DFFEA3500337270 /* Signup4ViewController.swift in Sources */,
+				CE0BB01D1E1A99900004C218 /* TargetsTableViewController.swift in Sources */,
+				CEA4042A1DFFEA3500337270 /* Signup1ViewController.swift in Sources */,
+				CEA4042B1DFFEA3500337270 /* Signup2ViewController.swift in Sources */,
+				CEA404281DFFEA3500337270 /* recipeRequests.swift in Sources */,
+				CE2AFEAE1E3DBC77007A3319 /* WebViewController.swift in Sources */,
+				CE41DCE11E3E81340079266F /* UserActions.swift in Sources */,
+				3A1F0CF01E33031E003C5A7F /* HomeVC.swift in Sources */,
+				CEA4041F1DFFEA3500337270 /* Login.swift in Sources */,
+				CEA404261DFFEA3500337270 /* NutritionTableViewController.swift in Sources */,
+				CEA404231DFFEA3500337270 /* MealPlanViewController.swift in Sources */,
+				8A7A24E81E095AA7003AB477 /* NutritionTableViewCell.swift in Sources */,
+				CED160491E05EFC600B7FF9D /* Instruction.swift in Sources */,
+				8A7A24EA1E095DE2003AB477 /* InstructionsTableViewCell.swift in Sources */,
+				CEA4042C1DFFEA3500337270 /* Signup3ViewController.swift in Sources */,
+				CED10DD71E2FF36F0097951A /* MealNutritionHeaderTableViewCell.swift in Sources */,
+				CEA4042E1DFFEA3500337270 /* Signup5ViewController.swift in Sources */,
+				CE3CA19F1E0878890004D3C0 /* GroceryItem.swift in Sources */,
+				CEA4041B1DFFEA3500337270 /* GroceryViewController.swift in Sources */,
+				CEA404301DFFEA3500337270 /* Signup7ViewController.swift in Sources */,
+				3A1F0CF61E33CAC9003C5A7F /* RecipiesCell.swift in Sources */,
+				CE3CA1A11E087E7E0004D3C0 /* GroceryItemTableViewCell.swift in Sources */,
+				CE5860231E0889CC009190B2 /* FavoritesViewController.swift in Sources */,
+				CE5941261E223FBC00709ACA /* Config.swift in Sources */,
+				CE0BB01F1E1AB7F60004C218 /* UserInformationTableViewController.swift in Sources */,
+				CEA404251DFFEA3500337270 /* MealTableViewHeaderCell.swift in Sources */,
+				CEF88EDC1E088FC700FC9ACD /* Favorites.swift in Sources */,
+				CEA4041C1DFFEA3500337270 /* HomeViewController.swift in Sources */,
+				CEA4041E1DFFEA3500337270 /* InstructionsTableViewController.swift in Sources */,
+				CED1604B1E05F02600B7FF9D /* Tag.swift in Sources */,
+				CEA4041A1DFFEA3500337270 /* Grocery.swift in Sources */,
+				CEC79B421E163B4100BF05B3 /* SettingsTableViewController.swift in Sources */,
+				CEAD54891E2AF60D007D4684 /* MealPlanNutritionTableViewController.swift in Sources */,
+				CE5860251E088BF5009190B2 /* favoritesTableViewCell.swift in Sources */,
+				CE14C6181E41C49400EA264D /* Requests.swift in Sources */,
+				CE0CED401E05285A00FE73AB /* MealPlan.swift in Sources */,
+				CE43CF3D1E0667C000D43743 /* NutritionLabel.swift in Sources */,
+				CEA404271DFFEA3500337270 /* Recipe.swift in Sources */,
+				8A7A24E61E093705003AB477 /* IngredientsTableViewCell.swift in Sources */,
+				CEF547FC1E3D8F0D00761CEB /* VideoViewController.swift in Sources */,
+				CEA403E41DFFE99D00337270 /* AppDelegate.swift in Sources */,
+				CEA4042F1DFFEA3500337270 /* Signup6ViewController.swift in Sources */,
+				CED5E6221E1A27E60087B662 /* Settings.swift in Sources */,
+				CE22CD921E1B8DAE00CE904D /* UserInfo.swift in Sources */,
+				CEA404181DFFEA3500337270 /* CaloriesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA403E71DFFE99D00337270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA403E81DFFE99D00337270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA403EC1DFFE99D00337270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA403ED1DFFE99D00337270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE38CDFB1E22389700C73BA6 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DENVIRONMENT_STAGING";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		CE38CDFC1E22389700C73BA6 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3CFE0DEA6A9F2A38A6AB2A /* Pods-Papaya Meal Planner.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Papaya Meal Planner/Papaya Meal Planner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Norton Gumbo (2Q372F9C24)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DBV8JD4R69;
+				INFOPLIST_FILE = "Papaya Meal Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.papayalc.papayamealplanner;
+				PRODUCT_NAME = "$(TARGET_NAME) Staging";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Staging;
+		};
+		CEA403F01DFFE99D00337270 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DENVIRONMENT_DEVELOPMENT";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		CEA403F11DFFE99D00337270 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DENVIRONMENT_PRODUCTION";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Production;
+		};
+		CEA403F31DFFE99D00337270 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C6F685CD03A2C00124C5A2 /* Pods-Papaya Meal Planner.dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Papaya Meal Planner/Papaya Meal Planner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Norton Gumbo (2Q372F9C24)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DBV8JD4R69;
+				INFOPLIST_FILE = "Papaya Meal Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.papayalc.papayamealplanner;
+				PRODUCT_NAME = "$(TARGET_NAME) Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Dev;
+		};
+		CEA403F41DFFE99D00337270 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6317A883772003A8959C55 /* Pods-Papaya Meal Planner.production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Papaya Meal Planner/Papaya Meal Planner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Papaya LC (DBV8JD4R69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DBV8JD4R69;
+				INFOPLIST_FILE = "Papaya Meal Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.papayalc.papayamealplanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Production;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA403DB1DFFE99D00337270 /* Build configuration list for PBXProject "Papaya Meal Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA403F01DFFE99D00337270 /* Dev */,
+				CE38CDFB1E22389700C73BA6 /* Staging */,
+				CEA403F11DFFE99D00337270 /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+		CEA403F21DFFE99D00337270 /* Build configuration list for PBXNativeTarget "Papaya Meal Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA403F31DFFE99D00337270 /* Dev */,
+				CE38CDFC1E22389700C73BA6 /* Staging */,
+				CEA403F41DFFE99D00337270 /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA403D81DFFE99D00337270 /* Project object */;
+}
